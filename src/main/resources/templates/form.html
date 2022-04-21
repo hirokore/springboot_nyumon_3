@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Title</title>
+</head>
+<body>
+	<form th:action="@{/confirm}" method="post"><!-- th:actionでフォームのポスト先を@{パス名}で指定 -->
+		<label> メッセージ： <input type="text" name="rsv_message">
+		</label>
+		<button>送信</button>
+	</form>
+</body>
+</html>
